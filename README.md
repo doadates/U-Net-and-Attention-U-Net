@@ -47,10 +47,16 @@ The codes in Google Colab will be written in Python programming language. With r
 ## Datasets
 - [5100 Dataset](https://www.kaggle.com/datasets/quadeer15sh/augmented-forest-segmentation?datasetId=1650618&select=Forest+Segmented)
   
+  ![data1](https://github.com/doadates/U-Net-and-Attention-U-Net/blob/main/images/858771_sat_83.jpg) ![data2](https://github.com/doadates/U-Net-and-Attention-U-Net/blob/main/images/861353_sat_72.jpg)
+  
   First dataset is with image/mask size = 256 x 256 that consist of 5100 samples, for each picture it has readily prepared mask. 
 - [HIGH-QUALITY DATASET](https://cloud.pix4d.com/dataset/911895/files/inputs?shareToken=5e81e91f-8a73-4201-81f4-748056fa0370)
 
+  
   Second dataset is with image/mask size = 3648 x 5472 that consist of 101 samples, and this dataset doesn’t have own masks. So for this dataset, new masks will be included according to the thresholding technique that is chosen.
+  
+  ![data2](https://github.com/doadates/U-Net-and-Attention-U-Net/blob/main/images/IX-11-23119_0096_0237.JPG) ![data2](https://github.com/doadates/U-Net-and-Attention-U-Net/blob/main/images/IX-11-23119_0096_0304.jpg)
+
 
 ## Training Parameters
 `model.compile(optimizer = tf.keras.optimizers.Adam(lr = 1e-3), loss=iou_coef_loss, metrics=['accuracy', iou_coef])`
