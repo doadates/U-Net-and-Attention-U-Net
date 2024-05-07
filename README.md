@@ -5,6 +5,7 @@
 - [U-Net](#u-net)
 - [Attention Mechanism](#attention-mechanism)
 - [Attention U-Net](#attention-u-net)
+- [Requirements](#requirements)
 - [Datasets](#datasets)
 - [Training Parameters](#training-parameters)
 
@@ -34,15 +35,16 @@ U-Net is a popular architecture used in semantic segmentation tasks, it's struct
 
 In our project, we propose to use this Attention-based U-Net CNN model as it has been shown to improve the performance of semantic segmentation tasks and it will allow us to selectively focus on the most relevant regions of the image during training, which will enhance the accuracy of the segmentation results.
 
+## Requirements
 The codes in Google Colab will be written in Python programming language. With respect to Python programming language usage, some important libraries for computer vision and data visualization can be provided to process the model. These Python libraries are;
 
--NumPY
--Pandas
--Matplotlib
--cv2
--TensorFlow
--Keras
--sklearn
+[![TensorFlow 2.1](https://img.shields.io/badge/TensorFlow-2.1-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.1.0)
+[![NumPy](https://img.shields.io/badge/NumPy-1.21.0-blue.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.3.0-blue.svg)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.2-blue.svg)](https://matplotlib.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.5.3-blue.svg)](https://opencv.org/)
+[![Keras](https://img.shields.io/badge/Keras-2.6.0-blue.svg)](https://keras.io/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24.2-blue.svg)](https://scikit-learn.org/)
 
 ## Datasets
 - [5100 Dataset](https://www.kaggle.com/datasets/quadeer15sh/augmented-forest-segmentation?datasetId=1650618&select=Forest+Segmented)
